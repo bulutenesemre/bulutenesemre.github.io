@@ -25,7 +25,7 @@ author_location: Turkey
 
 author_work_experiences: 
             - company_name: Turcom Technology
-              company_logo: turcom.jpg
+              company_logo: turcom.png
               company_url: https://www.turcom.com.tr
               description: IoT & Robotic Software Developer
               visibility: true
@@ -34,7 +34,7 @@ author_work_experiences:
               company_url: https://google.com
               designation: Software Engineer
               description: Worked on various Google Products
-              visibility: true
+              visibility: false
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
@@ -43,24 +43,24 @@ author_work_experiences:
               visibility: false
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: karabukuni.png
+                college_name: University Of Karabuk
+                college_url: https://www.karabuk.edu.tr/en/
+                college_degree: Mechatronics Engineer
+                description: Engineering Faculty
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: osm.png
+                project_title: OpenStreetMap Data Analytics
+                project_description: Data Analytics for Osm Data
+                project_url: https://github.com/bulutenesemre/OsmAnalysis
                 visibility: true
               - project_thumbnail: programmingebooks.png
                 project_title: Programming Ebooks
                 project_description: A Platform to easily find and read programming books
                 project_url: https://programmingebooks.com
-                visibility: true
+                visibility: false
 
 # social links
 github_username:  bulutenesemre
@@ -74,7 +74,7 @@ disqus_shortname: sujay-kundu
 wakatime_username: sujaykundu777
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: bulutenesemre@gmail.com
 
 # syntax highlighter
 markdown: kramdown
