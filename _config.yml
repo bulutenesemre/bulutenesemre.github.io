@@ -1,5 +1,5 @@
-title: John Doe
-subtitle: Web Developer and Designer
+title: Enes Emre BULUT
+subtitle: Software Developer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -9,8 +9,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Blog
       url: /blog
-    - text: Shop
-      url : /shop/
     - text: About Me
       url: /about/
     - text: Contact Me
@@ -22,11 +20,10 @@ urls:
 # Edit these details 
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Enes Emre BULUT
+author_bio: Hi, My Name is Enes Emre BULUT. I have highly interest with AI especially with  solutions on Self Driving Car industry.  
+author_email: "bulutenesemre@gmail.com"
+author_location: Turkey
 
 author_work_experiences: 
             - company_name: Google
