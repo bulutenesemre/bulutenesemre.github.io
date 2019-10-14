@@ -10,7 +10,7 @@ urls:
     - text: Blog
       url: /blog
     - text: About Me
-      url: /about/
+      url: /#/
     - text: Contact Me
       url : /contact/
     
