@@ -37,26 +37,25 @@ author_email: "bulutenesemre@gmail.com"
 author_location: Turkey
 
 author_work_experiences: 
-              - company_name: Turcom Technology
-                company_logo: turcom.png
-                company_url: https://www.turcom.com.tr
-                description: IoT & Robotic Software Developer
-                visibility: true
+            - company_name: Turcom Technology
+              company_logo: turcom.png
+              company_url: https://www.turcom.com.tr
+              description: IoT & Robotic Software Developer
+              visibility: true
 
 author_education_details:
               - college_logo: karabukuni.png
                 college_name: University Of Karabuk
                 college_url: https://www.karabuk.edu.tr/en/
-                college_degree: Mechatronics Engineer (Bechelor Degree)
+                college_degree: Mechatronics Engineer
                 description: Engineering Faculty
                 visibility: true
-        
 
-author_projects_details:
+author_project_details:
               - project_thumbnail: osm.png
                 project_title: OpenStreetMap Data Analytics
                 project_description: Data Analytics for Osm Data
-                project_url: https://github.com/bulutenesemre/OsmAnalysis
+                project_url: https://www.github.com/bulutenesemre/OsmAnalysis
                 visibility: true
 
               # - project_thumbnail: programmingebooks.png
