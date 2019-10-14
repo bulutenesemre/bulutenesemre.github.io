@@ -58,11 +58,7 @@ author_project_details:
                 project_url: https://www.github.com/bulutenesemre/OsmAnalysis
                 visibility: true
 
-              # - project_thumbnail: programmingebooks.png
-              #   project_title: Programming Ebooks
-              #   project_description: A Platform to easily find and read programming books
-              #   project_url: https://programmingebooks.com
-              #   visibility: false
+
 
 author_pubs_details:
               - title:
@@ -84,11 +80,11 @@ author_pubs_details:
 # social links
 github_username:  bulutenesemre
 linkedin_username: bulutenesemre
+medium_username: bulutenesemre
 #twitter_username: alexliu1
 #facebook_username: johndoe
 #behance_username: johndoe
 #instagram_username: johndoe
-medium_username: bulutenesemre
 #telegram_username: johndoe
 #dribbble_username: johndoe
 #flickr_username: johndoe
