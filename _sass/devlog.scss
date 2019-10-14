@@ -1,6 +1,6 @@
 body {
     background-color: #D6DDE1 !important;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif !important;
 }
 html {
     scroll-behavior: smooth;
@@ -85,7 +85,7 @@ header {
 }
 
 .nav-link {
-    font-size: 18px !important;
+    font-size: 15px !important;
     color: #000;
     font-weight: 600;
 }
