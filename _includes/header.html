@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-2 center">
                 <a href="/">
-                    <img src="/assets/img/{{ site.author_logo }}" class="profile-img">
+                    <img src="/assets/img/{{ site.author_logo }}" class="profile-img" style="width: 141px; height:176px; overflow:hidden;">
                 </a>
             </div>
           
@@ -12,6 +12,16 @@
                 <h1 class="profile-name"> {{ site.title }}</h1>
                 <p class="profile-bio"> {{ site.subtitle }}</p>
                 <p class="profile-links">
+                    {% if site.github_username %}
+                    <a class="social-link" href="http://github.com/{{ site.github_username }}">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.linkedin_username %}
+                    <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    {% endif %}
                     {% if site.twitter_username %}
                     <a class="social-link" href="http://twitter.com/{{ site.twitter_username }}">
                         <i class="fab fa-twitter"></i>
@@ -32,19 +42,9 @@
                         <i class="fab fa-medium-m"></i>
                     </a>
                     {% endif %}
-                    {% if site.github_username %}
-                    <a class="social-link" href="http://github.com/{{ site.github_username }}">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    {% endif %}
                     {% if site.behance_username %}
                     <a class="social-link" href="http://behance.net/{{ site.behance_username }}">
                         <i class="fab fa-behance"></i>
-                    </a>
-                    {% endif %}
-                    {% if site.linkedin_username %}
-                    <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
-                        <i class="fab fa-linkedin-in"></i>
                     </a>
                     {% endif %}
                     {% if site.telegram_username %}
@@ -63,9 +63,12 @@
                         <a class="nav-link" href="{{ i.url }}">{{ i.text }}</a>
                     </li>
                      {% endfor %}
+                     <!--
                      <li class="nav-item">
                          <a class="nav-link" href="{{ site.url}}/search/"><i class="fa fa-search" aria-hidden="true"></i></a>
                      </li>
+                    -->
+                    <!--
                      <li class="nav-item">
                          <button class="header__checkout snipcart-checkout">
 
@@ -75,9 +78,9 @@
                                     fill="#9094FF" class="header__checkout-fill"></path>
                                 </svg>
                                 <span class="snipcart-items-count"></span>
-                                <!-- <span class="snipcart-total-price"></span> -->
                               </button>
                         </li>
+                    -->
                     </ul>
       
             </div>
