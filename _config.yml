@@ -66,21 +66,19 @@ author_projects_details:
               #   visibility: false
 
 author_pubs_details:
-              - title: Reasoning Analytically About Password-Cracking Software
-                author_list: Enze Liu, Amanda Nakanishi, Maximilian Golla, David Cash, Blase Ur
-                venue: The 40th IEEE Symposium on Security and Privacy (S&P)
-                venue_short: IEEE S&P
-                year: 2019
+              - title:
+                author_list:
+                venue: 
+                venue_short: 
+                year: 
                 links:
                   - type: PDF
-                    url: https://www.blaseur.com/papers/sp19-pwcracking.pdf
+                    url: 
                   - type: Code
-                    url: https://github.com/UChicagoSUPERgroup/analytic-password-cracking/
+                    url: 
                   - type: Slides
-                    url: https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Enze_Alex_Liu_-_06-Reasoning_Analytically_About_Password-Cracking_Software.pdf
-                  - type: Video
-                    url: https://youtu.be/kSfmTV0GTIM
-
+                    url: 
+                
 
 
 

@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "devlopr"
   spec.version       = "0.4.1"
-  spec.authors       = ["Alex Liu"]
+  spec.authors       = ["Enes Emre BULUT"]
   spec.email         = ["sujaykundu777@gmail.com"]
 
   spec.summary       = %q{ A Theme built for developers }
