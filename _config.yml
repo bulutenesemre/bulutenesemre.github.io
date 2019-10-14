@@ -47,18 +47,23 @@ author_education_details:
               - college_logo: karabukuni.png
                 college_name: University Of Karabuk
                 college_url: https://www.karabuk.edu.tr/en/
-                college_degree: Mechatronics Engineer
+                college_degree: Mechatronics Engineer (Bechelor Degree)
                 description: Engineering Faculty
                 visibility: true
+        
 
-author_project_details:
+author_projects_details:
               - project_thumbnail: osm.png
                 project_title: OpenStreetMap Data Analytics
                 project_description: Data Analytics for Osm Data
-                project_url: https://www.github.com/bulutenesemre/OsmAnalysis
+                project_url: https://github.com/bulutenesemre/OsmAnalysis
                 visibility: true
 
-
+              # - project_thumbnail: programmingebooks.png
+              #   project_title: Programming Ebooks
+              #   project_description: A Platform to easily find and read programming books
+              #   project_url: https://programmingebooks.com
+              #   visibility: false
 
 author_pubs_details:
               - title:
@@ -80,11 +85,11 @@ author_pubs_details:
 # social links
 github_username:  bulutenesemre
 linkedin_username: bulutenesemre
-medium_username: bulutenesemre
 #twitter_username: alexliu1
 #facebook_username: johndoe
 #behance_username: johndoe
 #instagram_username: johndoe
+medium_username: bulutenesemre
 #telegram_username: johndoe
 #dribbble_username: johndoe
 #flickr_username: johndoe
