@@ -41,8 +41,7 @@ author_work_experiences:
             - company_name: Turcom Technology
               company_logo: turcom.png
               company_url: https://www.turcom.com.tr/en
-              designation: IoT & Robotic Software Developer
-              description: Worked on various Google Products
+              description: IoT & Robotic Software Developer
               visibility: true
             - company_name: Microsoft
               company_logo: microsoft.png
@@ -61,7 +60,7 @@ author_education_details:
         
 
 author_projects_details:
-              - project_thumbnail: osm.jpeg
+              - project_thumbnail: osm.png
                 project_title: OpenStreetMap Data Analytics
                 project_description: Data Analytics for Osm Data
                 project_url: https://github.com/bulutenesemre/OsmAnalysis
