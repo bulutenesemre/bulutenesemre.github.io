@@ -43,19 +43,13 @@ author_work_experiences:
               company_url: https://www.turcom.com.tr/en
               description: IoT & Robotic Software Developer
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: false
 
 author_education_details:
               - college_logo: karabukuni.png
                 college_name: University Of Karabuk
                 college_url: https://www.karabuk.edu.tr/en/
                 college_degree: Mechatronics Engineer (Bechelor Degree)
-                description: 2016.07 - Present
+                description: Engineering Faculty
                 visibility: true
         
 
