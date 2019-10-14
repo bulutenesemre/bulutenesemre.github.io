@@ -37,11 +37,11 @@ author_email: "bulutenesemre@gmail.com"
 author_location: Turkey
 
 author_work_experiences: 
-            - company_name: Turcom Technology
-              company_logo: turcom.png
-              company_url: https://www.turcom.com.tr
-              description: IoT & Robotic Software Developer
-              visibility: true
+              - company_name: Turcom Technology
+                company_logo: turcom.png
+                company_url: https://www.turcom.com.tr/en/
+                description: IoT / Robotic Software Developer
+                visibility: true
 
 author_education_details:
               - college_logo: karabukuni.png
@@ -112,8 +112,8 @@ permalink: pretty
 google_analytics: UA-46783401-10 
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
 show_author_education_details: true
+show_author_work_experiences: true
 show_author_projects_details: true
 
 # dont touch this unless required
