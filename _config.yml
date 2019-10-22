@@ -43,12 +43,6 @@ author_work_experiences:
               designation: Software Engineer
               description: IoT / Robotic Software Developer
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: false
 
 author_education_details:
               - college_logo: karabukuni.png
