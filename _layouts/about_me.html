@@ -8,34 +8,58 @@ layout: default
             {% if site.author_bio %}
             <div class="card">
                 <h1 class="card-title">About</h1>
-                <p> {{ site.author_bio }}</p>
+                <p style="text-align: justify;"> {{ site.author_bio }}</p>
+                <!-- <p> {{ site.author_bio_cont }}</p> -->
+            </div>
+            {% endif %}
+
+            {% if site.show_author_education_details == true %}
+            <div class="card">
+                <h1 class="card-title"> Education </h1>
+                <br />
+                {% for detail in site.author_education_details %}
+                {% if detail.visibility == true %}
+                <div class="row" style="margin-bottom:8px; margin-top:8px;">
+                        <div class="col-md-2">
+                            <img src="/assets/img/{{ detail.college_logo}}" class="company-logo" />
+                        </div>
+                        <div class="col-md-8">
+                            <h4 class="experience-info">{{detail.college_name}}</h4>
+                            <h6 class="experience-title"> {{detail.college_degree }}</h6>
+                            <p class="experience-desc"> {{detail.description}} </p>
+                            <p style="LINE-HEIGHT:0px;"><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
+                        </div>
+                </div>
+                {% endif %}
+                
+                {% endfor %}  
             </div>
             {% endif %}
 
 
-            {% if site.show_author_project_details == true %}
+            {% if site.show_author_projects_details == true %}
             <div class="card">
                 <h1 class="card-title">Projects</h1>
                 <br />
-                {% for project in site.author_project_details %}
+                {% for project in site.author_projects_details %}
                 {% if project.visibility == true %}
                 <div class="row">
                         <div class="col-md-2">
                             <img src="/assets/img/{{project.project_thumbnail}}" class="company-logo" />
                         </div>
-                        <div class="col-md-6">
-                            <h4 class="experience-title"> {{ project.project_title }}</h4>
+                        <div class="col-md-10">
+                            <h4 class="experience-title" align="stretch"> {{ project.project_title }}</h4>
                             <h6 class="experience-info"> {{ project.project_info}}</h6>
                             <p class="experience-desc"> {{ project.project_description }} </p>
-                            <p><a href="{{exp.company_url}}">{{ project.project_url}}</a></p> 
+                            <p><a href="{{project.project_url}}">{{ project.project_url}}</a></p> 
                         </div>
-                    </div>
-                    {% endif %}
-                    
-                    {% endfor %}  
+                </div>
+                {% endif %}
+                {% endfor %}  
             </div>
             {% endif %}
 
+            <!--
             {% if site.show_author_work_experiences == true %}
             <div class="card">
                 <h1 class="card-title"> Work Experience</h1>
@@ -58,30 +82,7 @@ layout: default
                     {% endfor %}  
             </div>
             {% endif %}
-
-
-            {% if site.show_author_education_details == true %}
-            <div class="card">
-                <h1 class="card-title"> Education </h1>
-                <br />
-                {% for detail in site.author_education_details %}
-                {% if detail.visibility == true %}
-                <div class="row">
-                        <div class="col-md-2">
-                            <img src="/assets/img/{{ detail.college_logo}}" class="company-logo" />
-                        </div>
-                        <div class="col-md-6">
-                            <h4 class="experience-title"> {{detail.college_degree }}</h4>
-                            <h6 class="experience-info">{{detail.college_name}}</h6>
-                            <p class="experience-desc"> {{detail.description}} </p>
-                            <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>                    
-                        </div>
-                    </div>
-                    {% endif %}
-                    
-                    {% endfor %}  
-            </div>
-            {% endif %}
+            -->
 
         </div>
         <div class="col-lg-4">
@@ -108,6 +109,16 @@ layout: default
                 {% endif %}
     
             </div>
+
+            <div class="card">
+                <h1> Recent News </h1>
+                {% for news in site.recent_news limit:5 %}
+                <li><strong>[{{news.date}}]</strong>&nbsp;{{news.content}}</li>
+                {% endfor %}
+                <li><a href="/news/">View More</a></li>
+                <!-- View More -->
+            </div>
+
     
             <div class="card">
                 <h1> Skills </h1>
@@ -115,7 +126,9 @@ layout: default
                 {%- include author_skills.html -%}
                
             </div>
-    
+
+            
+
             {% if site.wakatime_username %}
             <div class="card">
                 <h1> Coding Activity </h1>
@@ -124,6 +137,7 @@ layout: default
     
             </div>
             {% endif %}
+
     
         </div>
         </div>
