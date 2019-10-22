@@ -1,5 +1,5 @@
-title: John Doe
-subtitle: Web Developer and Designer
+title: Enes Emre BULUT
+subtitle: Software Developer
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -8,77 +8,76 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
     - text: Blog
-      url: /blog
+      url: /#/
     - text: Shop
-      url : /shop/
+      url : /#/
     - text: About Me
-      url: /about/
+      url: /#/
     - text: Contact Me
-      url : /contact/
+      url : /#/
     - text: Styleguide
-      url: /styleguide/
+      url: /#/
     
 
 # Edit these details 
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.  
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Enes Emre BULUT
+author_bio: Hi, My Name is Enes Emre BULUT.   
+author_email: "bulutenesemre@gmail.com"
+author_location: Turkey
 
 author_work_experiences: 
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
+            - company_name: Turcom Technology
+              company_logo: turcom.png
+              company_url: https://www.turcom.com.tr
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: IoT & Robotic Software Developer
               visibility: true
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Azure Developer
               description: Worked on various Azure Cloud Products
-              visibility: true
+              visibility: false
 
 author_education_details:
-              - college_logo: mit.png
+              - college_logo: karabukuni.png
                 college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+                college_url: University Of Karabuk
+                college_degree: Mechatronics Engineer
+                description: Engineering Faculty
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: osm.png
+                project_title: OpenStreetMap Data Analytics
+                project_description: Data Analytics for Osm Data
+                project_url: https://www.github.com/bulutenesemre/OsmAnalysis
                 visibility: true
               - project_thumbnail: programmingebooks.png
                 project_title: Programming Ebooks
                 project_description: A Platform to easily find and read programming books
                 project_url: https://programmingebooks.com
-                visibility: true
+                visibility: false
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
 linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
+github_username:  johndoe
 medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+#twitter_username: johndoe
+#facebook_username: johndoe
+#behance_username: johndoe
+#instagram_username: johndoe
+#telegram_username: johndoe
+#dribbble_username: johndoe
+#flickr_username: johndoe
 
 #for comments using disqus
-disqus_shortname: sujay-kundu  
+#disqus_shortname: sujay-kundu  
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: bulutenesemre
 
 # formspree (contact form)
 formspree_email: johndoe@gmail.com
@@ -89,7 +88,7 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10 
+google_analytics:
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
