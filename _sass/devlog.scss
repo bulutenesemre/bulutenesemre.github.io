@@ -20,18 +20,18 @@ header {
 }
 
 .profile-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-left: 20px;
 }
 
 .profile-name {
-    //margin-top: 20px;
+    margin-top: 20px;
 }
 
 .profile-bio,
 .profile-links {
-    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .border {
@@ -100,8 +100,8 @@ footer {
 }
 
 .company-logo {
-    max-width: 100px;
-    max-height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .project-img {
@@ -157,18 +157,6 @@ code {
     color:#fff;
 }
 
-.talkicon {
-    width: 50px;
-}
-
-.badge-container {
-    display: block !important;
-}
-
-.badge-img {
-    width: 100px;
-    margin-right: 10px;
-}
 
 // Variables
 $color--default: #3a3a3a;

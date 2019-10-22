@@ -1,549 +1,76 @@
-title: Davide Benvegnu
-subtitle: DevOps Architect, International Speaker, MMA fighter
+title: Enes Emre BULUT
+subtitle: Software Developer
 description: >- # this means to ignore newlines until "baseurl:"
-  Davide Benvegnu's website
+  devlopr-jekyll is a Jekyll Theme Built For Developers
 
-url: "https://n3wt0n.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: Home
-      url: /
-    - text: About Me
-      url: /about
     - text: Blog
-      url: /blog
-    - text: Projects
-      url: /projects
-    - text: Talks
-      url: /talks
-#    - text: Shop
-#      url : /shop/
+      url: /#/
+    - text: About Me
+      url: /#/
     - text: Contact Me
-      url : /contact
+      url : /#/
     
 
 # Edit these details 
 
-author_logo: profile.jpg
-author: Davide Benvegnu
-welcome_message:  >-
-  This website is always work-in-progress, so it won't be ever ready. 😉 
-  <br/>
-  It aims to be an open channel for information and connection with the outside world; inside it you will find all of my areas of interest, my hobbies, my passions and some curiosity about my life. 
-author_bio: >-
-  OK... <i>let me introduce my self. </i>
-  <br/><br/>
-  My name is <b>Davide Benvegnù</b>, I was born on July 15th, 1984 in Trieste, a city where I lived for many years. After a "Tuscan moment", having moved to the charming city of Subbiano, now I live and work in Hong Kong.
-  <br/><br/>
-  I deal mainly in computer science, at various levels. Currently I am <b>DevOps Architect</b> for Microsoft, and I used to be a <a href="https://mvp.microsoft.com/en-us/PublicProfile/5001160?fullName=Davide%20Benvegn%C3%B9" target="_blank">Microsoft MVP in Visual Studio Application Lifecycle Management</a> (ALM) for 3 years in a row.
-  <br/><br/>
-  I'm a staff member of <a href="http://www.dotnettoscana.org/" target="_blank">DotNetToscana</a>, an official Microsoft technical <b>community</b>, where I organize events and have speeches at technical conferences about DevOps, the .Net world, Azure, containers and serverless.
-  <br/>
-  I'm also the founder of the <a href="http://www.hkmsc.org/" target="_blank">HKMSC - Hong Kong Microsoft Community</a>.
-  <br/><br/>
-  I have been practicing Mixed Martial Arts (<b>MMA</b>) for some time before moving to Hong Kong, with the Spartan Club Arezzo. Now I train at Impakt, with some of the best fighters in Hong Kong.
-  <br/><br/>
-  I also like the modern and contemporary art, especially abstract paintings.  
-author_email: "davide.benvegnu@outlook.com"
-author_location: Hong Kong
-author_website_url: "http://www.davidebenvegnu.com"
+author_logo: profile.png
+author: Enes Emre BULUT
+author_bio: Hi, My Name is Enes Emre BULUT. 
+author_email: "bulutenesemre@gmail.com"
+author_location: Turkey
 
 author_work_experiences: 
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: DevOps Architect
-              description: Empowering every person and organization on the planet to achieve more, with Azure DevOps.
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Global Cloud Solution Architect
-              description: Worked on various Azure Cloud projects in the Telco, FSI, Retail, Logistics and Infrastructure business 
-              visibility: true
-            - company_name: DBTek
-              company_logo: DBTeklogo.png
-              company_url: http://www.dbtek.com.hk
-              designation: Director & CTO
-              #description: Worked on various Azure Cloud projects in the Telco, FSI, Retail, Logistics and Infrastructure business 
-              visibility: true
-            - company_name: Aruba
-              company_logo: aruba.png
-              company_url: https://www.aruba.it
-              designation: International Development Manager
-              description: Managed 3 offshore teams, for a total of 30 people, working on the internal Public Cloud platform, Certified Email platform and an end-to-end ALM and DevOps system
+            - company_name: Turcom Technology
+              company_logo: turcom.png
+              company_url: https://www.turcom.com.tr
+              description: IoT & Robotic Software Developer
               visibility: true
 
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: false
+              - college_logo: karabukuni.png
+                college_name: University Of Karabuk
+                college_url: https://www.karabuk.edu.tr/en/
+                college_degree: Mechatronics Engineer
+                description: Engineering Faculty
+                visibility: true
 
 author_project_details:
-              - project_thumbnail: AzureWebAppSSLManager.png
-                project_title: Azure WebApp SSL Manager
-                project_description: An Azure Function that acquires and manages free SSL certificates for Azure Web App hosted applications.
-                project_url: https://github.com/n3wt0n/AzureWebAppSSLManager
+              - project_thumbnail: osm.png
+                project_title: OpenStreetMap Data Analytics
+                project_description: Data Analytics for Osm Data
+                project_url: https://www.github.com/bulutenesemre/OsmAnalysis
                 visibility: true
-              - project_thumbnail: BugGuardian.png
-                project_title: BugGuardian
-                project_description: An Open Source library that allows to easily create a Bug work item on your Azure Devops account or on your on-premises Team Foundation Server 2015+ and Azure DevOps Server in case your application throws an Unhandled Exception.<br /><br />It comes with versions for .Net & .Net Core, Asp.Net MVC, Asp.Net Core and Asp.Net WebForms.
-                project_url: https://github.com/n3wt0n/BugGuardian
-                project_nuget: https://www.nuget.org/packages/DBTek.BugGuardian
-                visibility: true
-              - project_thumbnail: Crypto.png
-                project_title: Crypto
-                project_description: An Open Source piece of software, Crypto is a library to Encrypt/Decript and Hash files and strings
-                project_url: https://github.com/n3wt0n/Crypto
-                project_nuget: https://www.nuget.org/packages/DBTek.Crypto
-                visibility: true
-
-author_talk_details:
-              - talk_date: 18/06/2019
-                talk_event: Azure Developer Camp
-                talk_session: Architect your app modernization journey with containers on Microsoft Azure
-                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6941917abcd#
-                talk_slides_url: https://www.slideshare.net/n3wt0n/rchitect-your-app-modernization-journey-with-containers-on-microsoft-azure/edit?src=slideview
-                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10215946275382454
-                visibility: true
-              - talk_date: 18/06/2019
-                talk_event: Azure Developer Camp
-                talk_session: Azure Kubernetes Workshop
-                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6941917abcd#
-                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10215946624311177
-                visibility: true
-              - talk_date: 21/05/2019
-                talk_event: Microsoft //BUILD Community Event Hong Kong
-                talk_session: Deep dive notable announcements
-                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x6958067abcd
-                talk_session_url: https://www.facebook.com/mshktech/posts/10155952689106901
-                talk_slides_url: https://www.slideshare.net/n3wt0n/build-2019-hk-deep-dive-notable-announcements
-                talk_code_url: https://dev.azure.com/dabenveg/_git/Build2019HKAppConf
-                talk_photos_url: https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmshktech%2Fposts%2F10155971407161901&width=500
-                visibility: true
-              - talk_date: 10/04/2018
-                talk_event: Visual Studio 2019 Launch Viewing Party
-                talk_session: Event Support and Q&A
-                talk_event_url: https://www.meetup.com/Microsoft-Developers-HK/events/259910929/
-                talk_photos_url: https://www.meetup.com/Microsoft-Developers-HK/photos/29874996/
-                visibility: true
-              - talk_date: 27/03/2019
-                talk_event: Tuesday with Techies
-                talk_session: Azure Kubernetes Service
-                talk_video_url: https://www.facebook.com/watch/?v=338949670303894
-                visibility: true
-              - talk_date: 20-21/02/2019
-                talk_event: Microsoft Ignite the tour HK
-                talk_session: Demo Booth - Serverless
-                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10215172400436064
-                visibility: true
-              - talk_date: 28/11/2018
-                talk_event: Azure DevOps community launch
-                talk_session: Deploy to AKS and Azure Functions with Azure DevOps
-                talk_event_url: https://www.meetup.com/Microsoft-Developers-HK/events/255546742/
-                talk_slides_url: 
-                talk_github_url: https://github.com/n3wt0n/HelloNodeAKS
-                talk_photos_url: https://www.meetup.com/Microsoft-Developers-HK/photos/29479766/
-                talk_video_url: https://www.youtube.com/watch?v=e4NBPHwd3Ns
-                visibility: true
-              - talk_date: 26/10/2018
-                talk_event: Microsoft TechSummit GCR
-                talk_session: Microservices with Azure Service Fabric
-                talk_event_url: https://www.microsoft.com/china/events/video-for-techsummit2018/
-                talk_slides_url: 
-                talk_photos_url: https://1drv.ms/f/s!AGyvylNiHYgGo7Jp
-                talk_video_url: https://www.microsoft.com/china/events/video_419
-                visibility: true
-              - talk_date: 26/10/2018
-                talk_event: Microsoft TechSummit GCR
-                talk_session: Go Serverless - Design Patterns, Best Practices, and Real World scenarios
-                talk_event_url: https://www.microsoft.com/china/events/video-for-techsummit2018/
-                talk_slides_url: 
-                talk_photos_url: https://1drv.ms/f/s!AGyvylNiHYgGo7Jp
-                talk_video_url: https://www.microsoft.com/china/events/video_418
-                visibility: true
-              - talk_date: 13/07/2018
-                talk_event: MVP meetup
-                talk_session: How I choose which services to use in Azure?
-                talk_event_url: https://www.facebook.com/events/659587234386024/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/how-i-choose-which-services-to-use-in-azure
-                talk_photos_url: https://www.facebook.com/pg/microsofthkrmvp/photos/?tab=album&album_id=1909465285772628&__xts__%5B0%5D=68.ARD1E83VGeHEM0o9v-nuBq152iYCCyqnFeC1yzVaMXIDPvHsVsrWUoxTlTBJAg4h3jPnqVd98z3R1UqT_TRj2-329TuZr10GhduPyxkAgk50Ztas-i72UpYk9cgf5zGDxGZ-bvdmjnaP7cIXDUlai9nsppe6xHnqJJhZw8oWT5S94kW7OGqAR7uNIfs8_5U-Zq8FaAiig_QKYhre3e4kfiwcSd8N7-LGuVgQUBDF20FkzIHffF8zfzTscPY7e26Pw40DMSH4g2PZoriWUUhXFWgrgj8li38BgCCna6YWz2jzoLTEKW8lUH-SPPJxVNgAJ4A6e_4un-ilHJoomaG5rFkFQ5uTf0vnGBZ67gMGsV0P_BLZBF7rfyBbkMjFtW3iqpOxmRxgW0nT2jzAGFD2p1drRDVMEu8s8_TUnPR3OE7G2-GZhS8fcwqOBmFdLd5eVeZtMR4YZqr1N9DdsGfqSkOMpQv2YRsOBpszKpapFPXtXJCCVytKx6PFDHNhoHekfnAylaANTVxiIFuwexXe5ILdEe1HCSk6yxHXT5qpz6RKdaQK&__tn__=-UC-R
-                visibility: true
-              - talk_date: 29/03/2018
-                talk_event: Microsoft TechSummit Hong Kong
-                talk_session: Develop a Serverless Integration Platform for the Enterprise
-                talk_event_url: https://www.microsoft.com/hk/techsummit2018
-                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
-                talk_slides_url: https://www.slideshare.net/n3wt0n/develop-a-serverless-integration-platform-for-the-enterprise
-                visibility: true
-              - talk_date: 29/03/2018
-                talk_event: Microsoft TechSummit Hong Kong
-                talk_session: Microservices with Azure Service Fabric 
-                talk_event_url: https://www.microsoft.com/hk/techsummit2018
-                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
-                talk_slides_url: https://www.slideshare.net/n3wt0n/microservices-with-azure-service-fabric-175684815
-                visibility: true
-              - talk_date: 29/03/2018
-                talk_event: Microsoft TechSummit Hong Kong
-                talk_session: Go Serverless - Best Practices, Design Patterns, and Real World Scenarios
-                talk_event_url: https://www.microsoft.com/hk/techsummit2018
-                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
-                talk_slides_url: https://www.slideshare.net/n3wt0n/go-serverless-best-practices-design-patterns-and-real-world-scenarios
-                visibility: true
-              - talk_date: 29/03/2018
-                talk_event: Microsoft TechSummit Hong Kong
-                talk_session: Secure your applications with Azure AD and Key Vault
-                talk_event_url: https://www.microsoft.com/hk/techsummit2018
-                talk_session_url: https://www.facebook.com/davide.benvegnu/posts/10212857311880297
-                talk_slides_url: https://www.slideshare.net/n3wt0n/secure-your-applications-with-azure-ad-and-key-vault
-                talk_code_url: https://1drv.ms/t/s!AGyvylNiHYgGo7Jo
-                visibility: true
-              - talk_date: 14/03/2018
-                talk_event: Microsoft Developers HK Meetup
-                talk_session: .Net Microservices with Azure Service Fabric
-                talk_event_url: https://www.meetup.com/Microsoft-Developers-HK/events/247502337/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/net-microservices-with-azure-service-fabric
-                talk_github_url: https://github.com/n3wt0n/ServiceFabricDemoHKDev
-                talk_photos_url: https://www.meetup.com/Microsoft-Developers-HK/photos/28680099/469248350/
-                visibility: true
-              - talk_date: 07/02/2018
-                talk_event: Microsoft DevOps workshop
-                talk_session: Driving Faster Development with Automation and Autonomy
-                visibility: true
-              - talk_date: 31/01/2018
-                talk_event: Microsoft Ready - Winter edition
-                talk_session: Go Serverless - Best Practices, Design Patterns, and Real World Scenarios
-                visibility: true
-              - talk_date: 22/10/2017
-                talk_event: Hong Kong CodeConf
-                talk_session: Go Serverless - Design Patterns and Best Practices
-                talk_event_url: http://codeconf.hk/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/go-serverless-design-patterns-and-best-practices
-                visibility: true
-              - talk_date: 27/09/2017
-                talk_event: Hong Kong SharePoint User Group
-                talk_session: SharePoint Disaster Recovery in Microsoft Azure 
-                talk_event_url: https://www.facebook.com/events/1993010144279054/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/sharepoint-disaster-recovery-in-microsoft-azure
-                visibility: true
-              - talk_date: 14-15/02/2017
-                talk_event: Microsoft Tech Summit Hong Kong
-                talk_session: Deploy Your Solution to IaaS and PaaS with VSTS and Azure 
-                talk_event_url: https://www.microsoft.com/hk/techsummit2017/agenda.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-techsummit-deploy-your-solution-to-iaas-and-paas-with-vsts-and-azure-dev311
-                talk_photos_url: https://www.facebook.com/davide.benvegnu/posts/10209617406764694
-                visibility: true
-              - talk_date: 03/02/2017
-                talk_event: Visual Studio 2017, novità e dintorni da Connect()
-                talk_session: Le novità di Visual Studio Team Services... E non solo
-                talk_event_url: http://www.dotnettoscana.org/eventi/visual-studio-2017-novità-e-dintorni-da-connect/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/vs2017pi-le-novit-di-visual-studio-team-services
-                talk_video_url: https://youtu.be/f-e1s2mETkI
-                visibility: true
-              - talk_date: 12/01/2017
-                talk_event: Microsoft Tech Forum
-                talk_session: Accelerate Your Bot Development with DevOps
-                talk_event_url: https://www.microsoftevents.com/profile/form/index.cfm?PKformID=0x950970d86c&wt.mc_id=AID561806_QSG_29652
-                talk_slides_url: https://www.slideshare.net/n3wt0n/accelerate-your-bot-development-with-devops
-                talk_video_url: http://www.facebook.com/mshktech/videos/10154007509971901
-                visibility: true
-              - talk_date: 10/12/2016
-                talk_event: Barcamp Hong Kong 2016
-                talk_session: Microsoft <3 Open Source
-                talk_event_url: http://barcamp.hk/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/microsoft-lt3-open-source
-                visibility: true
-              - talk_date: 10/12/2016
-                talk_event: Barcamp Hong Kong 2016
-                talk_session: DevOps at Scale - Culture or Tools?
-                talk_event_url: http://barcamp.hk/
-                visibility: true
-              - talk_date: 24/11/2016
-                talk_event: HKWD - DevOps in Practice Part 2
-                talk_session: Continuous Integration - a real win-win for developers
-                talk_event_url: http://www.meetup.com/HK-Web-Developers/events/234772069/
-                visibility: true
-              - talk_date: 27/08/2016
-                talk_event: SharePoint Saturday Hong Kong
-                talk_session: Azure AD - Enterprise-Grade Identity Provider For Your Applications
-                talk_event_url: https://www.eventbrite.com/e/sharepoint-saturday-hong-kong-registration-26535236607
-                talk_session_url: http://lanyrd.com/2016/spshk/sfdghp/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-ad-enterprisegrade-identity-provider-for-your-applications-65572699
-                visibility: true
-              - talk_date: 07/06/2016
-                talk_event: World Internet Developer Summit 2016
-                talk_session: Keynote 2 - DevOps at scale A true story
-                talk_event_url: http://www.isoc.hk/wids2016/#schedule
-                talk_slides_url: https://www.slideshare.net/n3wt0n/devops-at-scale-a-true-story-wids2016
-                visibility: true
-              - talk_date: 22/04/2016
-                talk_event: Le novità di Build 2016 per gli sviluppatori Windows... E non solo
-                talk_session: Le novità di Visual Studio Team Services
-                talk_event_url: http://www.dotnettoscana.org/eventi/le-novità-di-build-2016-per-gli-sviluppatori-windows-e-non-solo/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/le-novit-di-visual-studio-team-services
-                tals_video_url: https://www.youtube.com/watch?v=YJEMfyA4WQU
-                visibility: true
-              - talk_date: 15/04/2016
-                talk_event: HK IT Fest 2016 - Promising Technologies for Contemporary Development
-                talk_session: Dev/Test Scenarios in the DevOps World
-                talk_event_url: https://www.eventbrite.hk/e/promising-technologies-for-contemporary-development-registration-22637694955
-                talk_slides_url: https://www.slideshare.net/n3wt0n/devtest-scenarios-in-devops-world
-                visibility: true
-              - talk_date: 16/03/2016
-                talk_event: HKCS QMSIG Seminar 
-                talk_session: Your application ever up-to-date? Go continuous delivery
-                talk_event_url: https://www.eventbrite.hk/e/hkcs-qmsig-seminar-networking-event-your-application-ever-up-to-date-go-continuous-delivery-registration-22483467657
-                talk_slides_url: https://www.slideshare.net/n3wt0n/your-application-ever-uptodate-go-continuous-delivery
-                visibility: true
-              - talk_date: 10-11/03/2016
-                talk_event: Microsoft Cloud Roadshow
-                talk_session: Ask the Experts booth
-                talk_event_url: https://www.microsoftcloudroadshow.com/hongkong/
-                visibility: true
-              - talk_date: 20/01/2016
-                talk_event: Microsoft DevOps Breakfast
-                talk_session: Continuous Integration and Continuous Deployment in the Enterprise Scenario
-                talk_event_url: https://onedrive.live.com/redir?resid=6881D6253CAAF6C!466027&authkey=!AMCGPIFlWkZcZKg&ithint=file%2cmht
-                talk_slides_url: https://www.slideshare.net/n3wt0n/continuous-integration-and-continuous-deployment-in-enterprise-scenario
-                visibility: true
-              - talk_date: 15/12/2015
-                talk_event: HKCS Enterprise Architecture SIG Half Day Seminar
-                talk_session: Ask the Experts booth
-                talk_event_url: https://easig151215.eventbrite.hk/
-                visibility: true
-              - talk_date: 11/12/2015
-                talk_event: Azure day - Il cloud per IT Pro e Dev
-                talk_session: Keynote - Azure il cloud secondo Microsoft
-                talk_event_url: http://www.dotnettoscana.org/eventi/azure-day-il-cloud-per-it-pro-e-dev/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-il-cloud-secondo-microsoft
-                visibility: true
-              - talk_date: 20/11/2015
-                talk_event: CAL - CityU Apps Lab
-                talk_session: Hard and Soft skill - be succesful in the IT market
-                talk_event_url: http://appslab.hk/
-                talk_session_url: https://www.facebook.com/CityuAppsLab/posts/1234724736554617
-                talk_slides_url: https://www.slideshare.net/n3wt0n/hard-and-soft-skills-be-succesful-in-the-it-market
-                visibility: true
-              - talk_date: 17/10/2015
-                talk_event: Barcamp Hong Kong 2015
-                talk_session: Build your OSS GitHub projects for free with VSO
-                talk_event_url: http://barcamp.hk/
-                talk_slides_url: http://www.slideshare.net/n3wt0n/build-your-oss-github-projects-for-free-with-vso
-                visibility: true
-              - talk_date: 17/10/2015
-                talk_event: Barcamp Hong Kong 2015
-                talk_session: What about Microsoft going Open Source?
-                talk_event_url: http://barcamp.hk/
-                visibility: true
-              - talk_date: 14/10/2015
-                talk_event: WebCast
-                talk_session: Da GitHub a NuGet con la nuova Build di Visual Studio Online
-                talk_event_url: http://www.dotnettoscana.org/eventi/webcast-da-github-a-nuget-con-la-nuova-build-di-visual-studio-online/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/da-github-a-nuget-con-la-nuova-build-di-visual-studio-online
-                talk_video_url: http://youtu.be/IEUx6q6XKVw
-                visibility: true
-              - talk_date: 21/09/2015
-                talk_event: Sviluppare a 360° con Visual Studio 2015
-                talk_session: Visual Studio 2015 e l'intrigante mondo esterno
-                talk_event_url: http://www.dotnettoscana.org/sviluppare-a-360-con-visual-studio-2015.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/visual-studio-2015-e-lintrigante-mondo-esterno
-                visibility: true
-              - talk_date: 21/09/2015
-                talk_event: Sviluppare a 360° con Visual Studio 2015
-                talk_session: NuGet 3.0 by examples
-                talk_event_url: http://www.dotnettoscana.org/sviluppare-a-360-con-visual-studio-2015.aspx
-                visibility: true
-              - talk_date: 17/09/2015
-                talk_event: WebCast
-                talk_session: Integrare Visual Studio Online - Rest API & Service Hooks
-                talk_event_url: http://www.dotnettoscana.org/integrare-visual-studio-online-rest-api-service-hooks.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/integrazione-con-visual-studio-online
-                visibility: true
-              - talk_date: 04/05/2015
-                talk_event: WebCast
-                talk_session: Cloud Load Testing con Visual Studio Online
-                talk_event_url: http://www.dotnettoscana.org/cloud-load-testing-con-visual-studio-online.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/cloud-load-testing-con-visual-studio-online
-                talk_video_url: http://youtu.be/1JKY2JAi4co
-                visibility: true
-              - talk_date: 23/04/2015
-                talk_event: Azure Community Bootcamp 2015 Pisa
-                talk_session: Azure Web Apps - Portare il tuo sito nel cloud
-                talk_event_url: http://www.communitydays.it/events/azure-2015/#l-Pisa
-                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-wepapps-portare-il-tuo-sito-sul-cloud
-                visibility: true
-              - talk_date: 17/04/2015
-                talk_event: ALM for Dummies
-                talk_session: Test di carico con Visual Studio Online - facile!
-                talk_event_url: http://www.domusdotnet.org/eventi/alm-for-dummies.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/test-di-carico-con-visual-studio-online-facile
-                visibility: true
-              - talk_date: 13/04/2015
-                talk_event: WebCast
-                talk_session: Continuous Integration con Visual Studio Online
-                talk_event_url: http://www.dotnettoscana.org/continuous-integration-con-visual-studio-online.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/3-ci
-                talk_video_url: http://youtu.be/GYweCkieztE
-                visibility: true
-              - talk_date: 13/04/2015
-                talk_event: PodCast
-                talk_session: DocumentDB visto da vicino
-                talk_event_url: http://www.dotnetpodcast.com/show/card/36
-                visibility: true
-              - talk_date: 26/03/2015
-                talk_event: Community Days 2015
-                talk_session: DocumentDB, il NoSQL secondo Azure
-                talk_event_url: http://www.communitydays.it/events/2015/
-                talk_session_url: http://www.communitydays.it/events/2015/az08/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/az08-document-db
-                visibility: true
-              - talk_date: 02/03/2015
-                talk_event: WebCast
-                talk_session: Gestione del codice sorgente con Visual Studio Online
-                talk_event_url: http://www.dotnettoscana.org/gestione-del-codice-sorgente-con-visual-studio-online.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/gestione-del-codice-sorgente-con-visual-studio-online
-                talk_video_url: http://youtu.be/L31bigKW0nA
-                visibility: true
-              - talk_date: 28/02/2015
-                talk_event: Le novità di Visual Studio 2015
-                talk_session: Le novità di Visual Studio Online
-                talk_event_url: http://www.visual-basic.it/DettaglioNews/tabid/160/ArticleId/1772/Le-novita-di-Visual-Studio-2015.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/le-novit-di-visual-studio-online
-                visibility: true
-              - talk_date: 13/02/2015
-                talk_event: Microsoft Mobile Camp - Firenze
-                talk_session: Fondamenti di ALM per le App Mobile
-                talk_slides_url: https://www.slideshare.net/n3wt0n/fondamenti-di-alm-per-le-app-mobile
-                visibility: true
-              - talk_date: 12/02/2015
-                talk_event: Microsoft Virtual Academy
-                talk_session: Application Lifecycle Management (ALM) con Visual Studio Online 
-                visibility: true
-              - talk_date: 02/02/2015
-                talk_event: WebCast
-                talk_session: Introduzione a Visual Studio Online
-                talk_event_url: http://www.dotnettoscana.org/introduzione-a-visual-studio-online.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/webcast-vso-1-introduzione-a-visual-studio-online
-                talk_video_url: http://youtu.be/CL0Krfkvzqc
-                visibility: true
-              - talk_date: 15/12/2014
-                talk_event: Real Solutions Day
-                talk_session: Progetto e gestione del lavoro - ALM in breve con Visual Studio Online
-                talk_event_url: http://www.dotnettoscana.org/real-solutions-day.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/real-solutions-day-progetto-e-gestione-del-lavoro-alm-in-breve-con-visual-studio-online
-                visibility: true
-              - talk_date: 06/11/2014
-                talk_event: Festival ICT 2014
-                talk_session: Una WebFarm bilanciata e scalabile con Microsoft Azure
-                talk_event_url: http://www.festivalict.com/il-programma-2014/
-                talk_session_url: http://www.festivalict.com/i-relatori-2014/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/una-web-farm-bilanciata-e-scalabile-con-microsoft-azure
-                visibility: true
-              - talk_date: 22/10/2014
-                talk_event: SMAU Milano
-                talk_session: About Aruba Cloud and ALM
-                visibility: true
-              - talk_date: 16/10/2014
-                talk_event: NTTSight Academy
-                talk_session: Predictive Analytics con Microsoft Azure Machine Learning
-                talk_event_url: http://www.nttsight.com/nttsight-academy/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/nt-tsight-academy-ml
-                visibility: true
-              - talk_date: 09/10/2014
-                talk_event: ABC... Azure Best Contents
-                talk_session: Keynote
-                talk_event_url: http://www.dotnettoscana.org/abc-azure-best-contents.aspx
-                visibility: true
-              - talk_date: 09/10/2014
-                talk_event: ABC... Azure Best Contents
-                talk_session: Azure NoSQL approach - DocumentDB
-                talk_event_url: http://www.dotnettoscana.org/abc-azure-best-contents.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/azure-nosql-approach-documentdb
-                visibility: true
-              - talk_date: 25/09/2014
-                talk_event: Community Days 2014 - Roma
-                talk_session: Da TFS a Visual Studio Online
-                talk_event_url: http://www.communitydays.it/events/2014-Roma/
-                talk_session_url: http://www.communitydays.it/events/2014-Roma/vs03/
-                talk_slides_url: https://www.slideshare.net/n3wt0n/cdays14-vs03-da-tfs-a-visual-studio-online
-                visibility: true
-              - talk_date: 30/05/2014
-                talk_event: ALM Deep dive with TFS 2013
-                talk_session: Opening Keynote
-                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
-                visibility: true
-              - talk_date: 30/05/2014
-                talk_event: ALM Deep dive with TFS 2013
-                talk_session: Release Management with TFS 2013
-                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/release-management-with-tfs-2013-35334617
-                visibility: true
-              - talk_date: 30/05/2014
-                talk_event: ALM Deep dive with TFS 2013
-                talk_session: Migrate from TFS to Visual Studio Online
-                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/migrate-from-tfs-2013-to-visual-studio-online
-                visibility: true
-              - talk_date: 30/05/2014
-                talk_event: ALM Deep dive with TFS 2013
-                talk_session: Install, configure and customize TFS2013
-                talk_event_url: http://www.dotnettoscana.org/alm-deep-dive-with-tfs-2013.aspx
-                talk_slides_url: https://www.slideshare.net/n3wt0n/install-configure-and-customize-tfs2013
-                visibility: true
-              - talk_date: 16/12/2013
-                talk_event: To the Web and Beyond with Visual Studio 2013
-                talk_session: Opening Keynote
-                visibility: true
-              - talk_date: dd/mm/yyyy
-                talk_event: EVENT
-                talk_session: SESSION
-                talk_event_url: http://aaa.bbb.ccc
-                talk_session_url: http://aaa.bbb.ccc
-                talk_slides_url: http://aaa.bbb.ccc
-                talk_code_url: http://aaa.bbb.ccc
-                talk_github_url: http://aaa.bbb.ccc
-                talk_photos_url: http://aaa.bbb.ccc
-                talk_video_url: http://aaa.bbb.ccc
-                visibility: false
 
 # social links
-twitter_username: davidebenvegnu
-github_username:  n3wt0n
-facebook_username: davide.benvegnu
-linkedin_username: davidebenvegnu
-#behance_username: johndoe
-#instagram_username: johndoe
-#medium_username: johndoe
-#telegram_username: johndoe
-#dribbble_username: johndoe
-#lickr_username: johndoe
+github_username:  bulutenesemre
+linkedin_username: bulutenesemre
+medium_username: bulutenesemre
 
 #for comments using disqus
-#disqus_shortname: sujay-kundu  
+disqus_shortname: sujay-kundu  
 
 # wakatime username (coding activity)
-wakatime_username: davide.benvegnu@outlook.com
+wakatime_username: bulutenesemre
 
 # formspree (contact form)
-formspree_email: davide.benvegnu@outlook.com
+formspree_email: bulutenesemre@gmail.com
 
 # syntax highlighter
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Application Insights
-application_insights_key: c72f18ae-4924-4277-8222-a2327fbe32f9
+# google analytics
+google_analytics: 
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: false
+show_author_education_details: true
 show_author_project_details: true
-show_author_talk_details: true
 
 # dont touch this unless required
 plugins:
@@ -553,7 +80,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-algolia
-# - jekyll-archives
+  - jekyll-archives
+
+# algolia search 
+algolia:
+  application_id: D9WA1YKTRQ
+  index_name: blog_posts # You can replace that with whatever name you want
+  files_to_exclude: []
+  nodes_to_index: 'article'
+  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
 
 # pagination of posts
 paginate: 8
@@ -575,10 +110,6 @@ compress_html:
 #   layout: archive
 #   permalinks:
 #     category: '/category/:name/'
-
-
-collections:
- - products
 
 # Exclude from processing.
 # The following items will not be processed, by default.
