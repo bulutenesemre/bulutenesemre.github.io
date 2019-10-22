@@ -1,6 +1,6 @@
 body {
     background-color: #D6DDE1 !important;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif !important;
 }
 html {
     scroll-behavior: smooth;
@@ -20,18 +20,18 @@ header {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-left: 20px;
 }
 
 .profile-name {
-    margin-top: 20px;
+    //margin-top: 20px;
 }
 
 .profile-bio,
 .profile-links {
-    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 .border {
@@ -85,7 +85,7 @@ header {
 }
 
 .nav-link {
-    font-size: 18px !important;
+    font-size: 15px !important;
     color: #000;
     font-weight: 600;
 }
@@ -100,8 +100,8 @@ footer {
 }
 
 .company-logo {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .project-img {
@@ -157,6 +157,18 @@ code {
     color:#fff;
 }
 
+.talkicon {
+    width: 50px;
+}
+
+.badge-container {
+    display: block !important;
+}
+
+.badge-img {
+    width: 100px;
+    margin-right: 10px;
+}
 
 // Variables
 $color--default: #3a3a3a;

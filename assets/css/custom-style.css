@@ -1,3 +1,7 @@
 body{
     background-color: #111;
 }
+
+.btn-default {
+    border-color: rgb(0, 123, 255) !important;
+}
