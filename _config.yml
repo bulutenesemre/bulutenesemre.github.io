@@ -30,7 +30,7 @@ recent_news:
 
 # Edit these details 
 
-author_logo: profile.png
+author_logo: myprofile.png
 author: Enes Emre BULUT
 author_bio: Hi, My Name is Enes Emre BULUT. 
 author_email: "bulutenesemre@gmail.com"
@@ -38,18 +38,18 @@ author_location: Turkey
 author_website_url: "https://bulutenesemre.github.io"
 
 author_work_experiences: 
-            - company_name: Turcom Technology
-              company_logo: turcom.png
-              company_url: https://www.turcom.com.tr/en
+            - company_name: Google
+              company_logo: google.png
+              company_url: https://google.com
               designation: Software Engineer
-              description: IoT & Robotic Software Developer
+              description: Worked on various Google Products
               visibility: true
             - company_name: Microsoft
               company_logo: microsoft.png
               company_url: https://microsoft.com
               designation: Azure Developer
               description: Worked on various Azure Cloud Products
-              visibility: false
+              visibility: true
 
 author_education_details:
               - college_logo: karabukuni.png
